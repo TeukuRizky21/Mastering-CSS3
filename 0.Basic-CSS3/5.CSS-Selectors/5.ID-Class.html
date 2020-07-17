@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>ID-Class Selector CSS</title>
+    <style type="text/css">
+        /* 
+            #selector {
+                property1: value1; ==> Declaration
+                property2: value2; ==> Declaration
+                property3: value3; ==> Declaration
+                ....
+            }
+            - ID should be only one per element
+            - ID's are unique
+            - Each Element can only have one ID
+            - Each Page can have only element with that ID
+            - ID is more preference than a class
+
+            .selector {
+                property1: value1; ==> Declaration
+                property2: value2; ==> Declaration
+                property3: value3; ==> Declaration
+                ....
+            }
+
+        */
+
+        #red-border {
+            border-style: solid;
+            border-color: red;
+        }
+
+        .green-border {
+            border-style: solid;
+            border-color: green;
+        }
+
+        .text-italics {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="green-border" id="red-border">ID Selector - Custom Name</h1>
+    <h1 class="green-border text-italics" id="red-border">Class Selector - Custom Name</h1>
+    
+</body>
+
+</html>

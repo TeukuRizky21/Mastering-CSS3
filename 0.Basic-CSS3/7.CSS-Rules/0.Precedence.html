@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Order Precedence</title>
+    <style type="text/css">
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: green
+        }
+
+        p,
+        h1 {
+            color: red;
+        }
+
+        div {
+            color: red;
+        }
+
+        #text-blue {
+            color: red;
+        }
+
+        .text-green {
+            color: green;
+        }
+
+        div#text-blue {
+            color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p>Paragraph Text</p>
+
+    <div id="text-blue" class="text-green">
+        CSS rule which is more specific has more Precedence.
+        <br>
+        id has more precedence than class
+    </div>
+    
+</body>
+
+</html>

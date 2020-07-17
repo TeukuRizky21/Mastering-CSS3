@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Attribute Selector CSS</title>
+    <style type="text/css">
+        /* 
+            selector.[class] {
+                property1: value1; ==> Declaration
+                property2: value2; ==> Declaration
+                property3: value3; ==> Declaration
+                ....
+            }
+
+        */
+
+        p[class] {
+            color: red;
+            font-weight: bold;
+        }
+
+        p[class=color-blue] {
+            color:blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="">This is a paragraph</p>
+    <hr>
+    <p class="color-blue">This is a paragraph</p>
+</body>
+
+</html>

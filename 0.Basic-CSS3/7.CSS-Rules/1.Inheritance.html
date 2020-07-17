@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Order Precedence</title>
+    <style type="text/css">
+        body {
+            color: white;
+            background-color: red;
+        }
+
+        h1 {
+            text-decoration: underline;
+            background-color: black;
+        }
+
+        .black-screen {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p>Paragraph Text</p>
+    <p class="black-screen">Lorem ipsum dolor sit amet consectetur adipisicing <a href="#">elit.</a> Quibusdam
+        accusantium voluptates deleniti iste ipsum est sapiente, tempore a officia magni exercitationem possimus ad odio
+        reprehenderit asperiores. Aliquam, provident! Ab, minus!</p>
+</body>
+
+</html>
