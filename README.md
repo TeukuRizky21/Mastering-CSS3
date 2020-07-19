@@ -151,7 +151,6 @@
             <li>display: inline-block; - can be used to change height and width of the box and still remain inline.</li>
         </ul>
     </ul>
-
     <h1>Further Reading CSS</h1>
     <hr>
     <ul>
