@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Border Box CSS</title>
+    <style type="text/css">
+        /* 
+        border-style: solid; - Controls the style of the line
+        border-color: red; - Color of the border line
+        border-width: 4px; - Width of the border line
+        border-top-style: dashed; - Apply the style only to top line
+        border-bottom-style: dotted; - Apply the style only to bottom line
+        * {
+            border-style: solid;
+            border-color: red;
+        }
+         */
+
+        div {
+            border-style: solid;
+            border-color: red;
+            border-width: 4px;
+            border-top-style: dashed;
+            border-bottom-style: dotted;
+        }
+
+        .blue-border{
+            border: 5px solid blue;
+        }
+        .green-border{
+            border: 5px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>There is a magical box around every HTML tags.</h1>
+
+    <div>
+        Border Example with Diff line of 4px width and red in color.
+    </div>
+    <br><hr>
+
+    <div class="blue-border">
+        Border Example with solid line of 5px width and blue in color.
+    </div>
+    <hr><br>
+
+    <div class="green-border">
+        Border Example with solid line of 5px width and green in color.
+    </div>
+    <br><hr>
+    <h1><a href="2.Box-Margin.html">Next Lesson >></a></h1>
+    <h2><a href="0.DrawBox.html">Previous Lesson <<</a></h2>
+    <hr>
+</body>
+
+</html>

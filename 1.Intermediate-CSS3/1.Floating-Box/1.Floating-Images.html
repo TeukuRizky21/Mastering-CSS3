@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Floating Images</title>
+    <style type="text/css">
+        .head1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        img {
+            margin-right: 20px;
+        }
+
+        br {
+            clear: both;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .clearfix::after{
+            /* 
+            content: "";
+            clear: both;
+            display: table;
+             */
+             /* This code snippet is a famous hack that many developers use to clear any floating objects after the box. */
+             content: ".";
+             /* This display property you will learn in next lesson */
+             display: block;
+             clear: both;
+             height: 0;
+             /* Hide the content that we placed above "." */
+             visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="head1">TrxMod21Xploit</h1>
+    <div class="clearfix">
+        <img src="../../Assets/tes.jpg" alt="TrxMod21Xploit" class="float-left" height="250px" width="250px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo impedit sed similique porro excepturi
+            iure possimus beatae laudantium consectetur nesciunt voluptas qui facilis tempora cum, reiciendis culpa
+            voluptatem velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cum quae porro quis magnam
+            hic, labore illo veniam odit eos commodi dolores sunt! Beatae ullam porro rerum culpa exercitationem nam.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum voluptates aliquam ex accusamus
+            repellendus, ullam aut et commodi quibusdam autem quas quam mollitia. Molestias pariatur rem aliquam veniam
+            ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse neque saepe amet tempora quidem vitae
+            dolorem ullam corrupti exercitationem, sapiente earum fugit omnis incidunt cumque harum explicabo pariatur
+            voluptas rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nemo iste excepturi
+            ipsum, necessitatibus delectus odit tempore nulla nobis veniam cupiditate sequi molestiae, deserunt
+            doloremque quasi, vel et maxime ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum
+            architecto laudantium laborum, cumque odit odio harum. Molestias maxime voluptates dolorem voluptatem hic
+            sunt veniam earum vel ex, error iusto.
+            Itaque, doloribus. Ullam aspernatur eum aperiam at nobis ab accusamus? Expedita ea unde eum porro excepturi
+            nemo? Necessitatibus, tempora? Perferendis voluptates quae debitis quis ad porro quod iste fugiat eligendi?
+            Provident dolorem cum blanditiis sint, explicabo, quasi dolore repellat quibusdam labore, nostrum deleniti
+            culpa ad ut maiores nulla at possimus. Reiciendis debitis quod ab eum aut sint optio, exercitationem animi?
+            Fugiat, saepe rem officiis dolore dicta libero debitis, temporibus et blanditiis minima amet, qui
+            consectetur iure inventore eum ipsum sed quidem adipisci non est tenetur. Quasi, tempore pariatur. Rerum,
+            maiores.
+            Ducimus earum facilis natus neque. Similique nisi sapiente mollitia unde voluptates eaque saepe cupiditate
+            itaque, enim sed repudiandae neque rerum quae veritatis optio modi culpa obcaecati odio in provident fugiat!
+            Rerum quaerat minus ipsa perferendis doloremque laudantium incidunt. Magnam ipsa numquam, tempore ducimus
+            voluptas quidem consequuntur fugit incidunt corporis consequatur fugiat vel facere, eveniet, voluptatum
+            obcaecati dicta inventore. Nobis, ipsa.</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+        <img src="../../Assets/tes.jpg" alt="TrxMod21Xploit" class="float-right" height="250px" width="250px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo impedit sed similique porro excepturi
+            iure possimus beatae laudantium consectetur nesciunt voluptas qui facilis tempora cum, reiciendis culpa
+            voluptatem velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cum quae porro quis magnam
+            hic, labore illo veniam odit eos commodi dolores sunt! Beatae ullam porro rerum culpa exercitationem nam.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum voluptates aliquam ex accusamus
+            repellendus, ullam aut et commodi quibusdam autem quas quam mollitia. Molestias pariatur rem aliquam veniam
+            ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse neque saepe amet tempora quidem vitae
+            dolorem ullam corrupti exercitationem, sapiente earum fugit omnis incidunt cumque harum explicabo pariatur
+            voluptas rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nemo iste excepturi
+            ipsum, necessitatibus delectus odit tempore nulla nobis veniam cupiditate sequi molestiae, deserunt
+            doloremque quasi, vel et maxime ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum
+            architecto laudantium laborum, cumque odit odio harum. Molestias maxime voluptates dolorem voluptatem hic
+            sunt veniam earum vel ex, error iusto.
+            Itaque, doloribus. Ullam aspernatur eum aperiam at nobis ab accusamus? Expedita ea unde eum porro excepturi
+            nemo? Necessitatibus, tempora? Perferendis voluptates quae debitis quis ad porro quod iste fugiat eligendi?
+            Provident dolorem cum blanditiis sint, explicabo, quasi dolore repellat quibusdam labore, nostrum deleniti
+            culpa ad ut maiores nulla at possimus. Reiciendis debitis quod ab eum aut sint optio, exercitationem animi?
+            Fugiat, saepe rem officiis dolore dicta libero debitis, temporibus et blanditiis minima amet, qui
+            consectetur iure inventore eum ipsum sed quidem adipisci non est tenetur. Quasi, tempore pariatur. Rerum,
+            maiores.
+            Ducimus earum facilis natus neque. Similique nisi sapiente mollitia unde voluptates eaque saepe cupiditate
+            itaque, enim sed repudiandae neque rerum quae veritatis optio modi culpa obcaecati odio in provident fugiat!
+            Rerum quaerat minus ipsa perferendis doloremque laudantium incidunt. Magnam ipsa numquam, tempore ducimus
+            voluptas quidem consequuntur fugit incidunt corporis consequatur fugiat vel facere, eveniet, voluptatum
+            obcaecati dicta inventore. Nobis, ipsa.</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+        <img src="../../Assets/tes.jpg" alt="TrxMod21Xploit" class="float-left" height="250px" width="250px">
+        <img src="../../Assets/tes.jpg" alt="TrxMod21Xploit" class="float-left" height="250px" width="250px">
+        <img src="../../Assets/tes.jpg" alt="TrxMod21Xploit" class="float-left" height="250px" width="250px">
+    </div>
+
+    <br>
+    <hr>
+    <h1><a href="2.Horizontal-Menu.html">Next Lesson >></a></h1>
+    <h2><a href="3.Box-Padding.html">Previous Lesson << </a>
+    </h2>
+    <hr>
+</body>
+
+</html>

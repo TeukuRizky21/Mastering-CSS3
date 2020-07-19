@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Box Margin CSS</title>
+    <style type="text/css">
+        /* 
+        Margin can be used to add spaces between the boxes and push the boxes around.
+
+        Margin Properties:
+            Margin
+            Margin-top
+            margin-right
+            margin-bottom
+            margin-left
+
+        Think clock wise direction - Top, Right, Bottom, Left
+            selector {
+                margin-top: 5px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+
+            OR
+
+            selector {
+                margin: 5px; #All the 4 sides will have margin of 5px;
+            }
+
+            OR
+
+            selector {
+                #margin: top right bottom left
+                margin: 5px 5px 5px 5px;
+            }
+
+            OR
+
+            selector {
+                #margin: top left+right bottom
+                margin: 5px 5px 5px
+            }
+        */
+
+        .red-border {
+            border: 5px solid red;
+            margin-bottom: 25px;
+        }
+
+        .blue-border {
+            border: 5px solid blue;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+
+        .green-border {
+            border: 5px solid green;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red-border">
+        Margin Example with solid red line.
+    </div>
+    <div class="red-border" style="border-style: dashed;">
+        Margin Example with dashed red line.
+    </div>
+    <div class="red-border" style="border-style: dotted;">
+        Margin Example with dotted red line.
+    </div>
+    <div class="blue-border">
+        Margin Example with solid blue line.
+    </div>
+    <div class="blue-border" style="border-style: dashed;">
+        Margin Example with dashed blue line.
+    </div>
+    <div class="blue-border" style="border-style: dotted;">
+        Margin Example with dotted blue line.
+    </div>
+    <div class="green-border">
+        Margin Example with solid green line.
+    </div>
+    <div class="green-border" style="border-style: dashed;">
+        Margin Example with dashed green line.
+    </div>
+    <div class="green-border" style="border-style: dotted;">
+        Margin Example with dotted green line.
+    </div>
+    <br>
+    <hr>
+    <h1><a href="3.Box-Padding.html">Next Lesson >></a></h1>
+    <h2><a href="0.DrawBox.html">Previous Lesson << </a>
+    </h2>
+    <hr>
+</body>
+
+</html>
